@@ -26,3 +26,8 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+task downloadGradleSource(type: Exec) {
+    commandLine "java", "-jar", "tools/klokwrk-tool-gradle-source-repack-0.0.6-all.jar",
+            getGradle().getGradleVersion()
+}
