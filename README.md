@@ -3,6 +3,7 @@ Barebones template to help start new Gradle Plugin projects.
 
 ## Contains
 - Template plugin
+- Composite Build with Test Project
 - JUnit Testing
 - Git-tag based versioning
 - Lombok
