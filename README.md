@@ -1,18 +1,20 @@
 # Gradle Plugin Template
-Barebones template to help start new Gradle Plugin projects.
 
-## Contains
-- Template plugin
-- Composite Build with Test Project
-- JUnit Testing
-- Git-tag based versioning
-- Lombok
+A minimalistic template to kickstart new Gradle Plugin projects, streamlining the initial setup and development process.
+
+## Features
+-  Template plugin: A basic plugin structure to use as a starting point
+-  Composite Build with Test Project: Easily test your plugin with a sample project
+-  JUnit Testing: Set up for unit testing with JUnit
+-  Git-tag based versioning: Manage your project versions using Git tags
+-  Lombok: Integrated support for the Lombok library to reduce boilerplate code
 
 ## Included Examples
-- Creating a basic plugin
-- Configuring a plugin id
-- Testing the plugin
+The template comes with examples to help you get started:
 
-## Mentions
-- [Gradle Source Repack](https://github.com/croz-ltd/klokwrk-project/blob/master/modules/tool/klokwrk-tool-gradle-source-repack/README.md)
-  from the [klokwrk-project](https://github.com/croz-ltd/klokwrk-project)
+-  Creating a basic Gradle plugin
+-  Configuring a plugin ID
+-  Testing your plugin using JUnit
+
+## Acknowledgments
+-  [Gradle Source Repack](https://github.com/croz-ltd/klokwrk-project/blob/master/modules/tool/klokwrk-tool-gradle-source-repack/README.md)
